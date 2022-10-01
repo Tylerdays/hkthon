@@ -38,8 +38,7 @@ footer{
     color: white;
 }
 #contacts{
-    justify-items: start;
-    margin: 5%;
+    justify-items: center;
 }
     
 .logos{
@@ -55,16 +54,50 @@ footer{
     height: 3vh;
     background-color: white;
 }
-#bottom{
+
+.contact{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    justify-items: center;
-    align-items: center;
-    border-bottom: solid black;
+    justify-content: start;
+    align-content: start;
+    border-bottom: 3px solid white;
+}
+
+#info{
+    display: grid;
+    border-bottom: 2px solid white;
 }
 #artists, #songs{
     display: grid;
     grid-template-rows: 2fr;
-    justify-self: start;
-    margin-left: 5%;
+    justify-self: center;
+    align-self: center;
+}
+
+button{
+    background-color: white;
+    border: 1px black solid;
+    display: inline-block;
+    font-size: .8em;
+    padding: 15px 32px;
+    position: absolute;
+    left: 400px;
+    text-decoration: none;
+    text-align: center;
+    
+
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+}
+#artist, #list{
+    display: grid;
+    margin: 2% 0% 2% 0%; 
+}
+
+
+#com{
+    display: grid;
+    justify-item: center;
 }
