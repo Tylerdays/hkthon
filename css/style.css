@@ -8,8 +8,10 @@ html{
 }
 
 #headbar>img{
+    display: grid;
     height: 9vh;
     justify-self: start;
+    
 }
 #headbar{
     display: grid;
@@ -18,6 +20,7 @@ html{
     justify-items: center;
     align-items: center;
     font-size: 2rem;
+    
 }
 main{
     display: grid;
@@ -31,11 +34,15 @@ footer{
     display: grid;
     justify-items: center;
     align-items: center;
+    background-color: rgb(18 18 18);
+    color: white;
+    
 }
 div>img{
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     height: 3vh;
+    background-color: white;
 }
 #logos{
     display: flex;
@@ -43,6 +50,7 @@ div>img{
 #imgdiv{
     box-sizing: border-box;
     grid-auto-rows: min-content;
+    padding-right: 10px;
 }
 #bottom>section{
     display: grid;
