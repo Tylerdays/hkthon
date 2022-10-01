@@ -32,29 +32,39 @@ main{
 }
 footer{
     display: grid;
-    justify-items: center;
-    align-items: center;
+    justify-items: start;
+    align-items: start;
     background-color: rgb(18 18 18);
     color: white;
+}
+#contacts{
+    justify-items: start;
+    margin: 5%;
+}
     
-}
-div>img{
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
-    height: 3vh;
-    background-color: white;
-}
-#logos{
+.logos{
     display: flex;
 }
-#imgdiv{
+.imgdiv{
     box-sizing: border-box;
     grid-auto-rows: min-content;
     padding-right: 10px;
+    
 }
-#bottom>section{
+.imgdiv>img{
+    height: 3vh;
+    background-color: white;
+}
+#bottom{
     display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
     align-items: center;
     border-bottom: solid black;
+}
+#artists, #songs{
+    display: grid;
+    grid-template-rows: 2fr;
+    justify-self: start;
+    margin-left: 5%;
 }
