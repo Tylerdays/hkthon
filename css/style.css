@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 2rem;
+}
+
+#headbar>img{
+    height: 9vh;
+    justify-self: start;
+}
+#headbar{
+    display: grid;
+    grid-template-columns: 1fr 10fr 1fr;
+    background-color: rgb(255 255 100);
+    justify-items: center;
+    align-items: center;
+    font-size: 2rem;
+}
+main{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+#headbar >h1{
+    font-size: 5rem;
+}
+footer{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+div>img{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 3vh;
+}
+#logos{
+    display: flex;
+}
+#imgdiv{
+    box-sizing: border-box;
+    grid-auto-rows: min-content;
+}
+#bottom>section{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    border-bottom: solid black;
+}
