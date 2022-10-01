@@ -95,9 +95,11 @@ button:hover{
     color: white;
 }
 
-#mobilePagegrid{
+#mobilePagegrid > img{
     display: grid;
     grid-template-columns: repeat(auto-fit, 250px, 1fr);
+    grid-template-rows: auto;
+    height: 75px;
 }
 
 .Partridge{
@@ -148,16 +150,16 @@ button:hover{
 #com{
     display: grid;
     justify-content: center;
+    margin-bottom: 10px;
     
 }
 
 .genius{
     color: pink;
+    margin-bottom: 10px;
 }
 
-.join{
+#join{
     display: grid;
-    justify-content: center;
-    border: 3px black solid;
-    
+    margin-bottom: 100px;
 }
